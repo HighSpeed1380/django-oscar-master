@@ -1,0 +1,732 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: django-oscar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-30 10:56+0100\n"
+"PO-Revision-Date: 2013-02-18 17:05+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Malay (http://www.transifex.com/codeinthehole/django-oscar/language/ms/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps/address/abstract_models.py:24
+msgid "Mr"
+msgstr ""
+
+#: apps/address/abstract_models.py:25
+msgid "Miss"
+msgstr ""
+
+#: apps/address/abstract_models.py:26
+msgid "Mrs"
+msgstr ""
+
+#: apps/address/abstract_models.py:27
+msgid "Ms"
+msgstr ""
+
+#: apps/address/abstract_models.py:28
+msgid "Dr"
+msgstr ""
+
+#: apps/address/abstract_models.py:217
+msgctxt "Treatment Pronouns for the customer"
+msgid "Title"
+msgstr ""
+
+#: apps/address/abstract_models.py:219 apps/customer/abstract_models.py:51
+#: templates/oscar/dashboard/partners/partner_manage.html:39
+#: templates/oscar/dashboard/partners/partner_user_list.html:39
+#: templates/oscar/dashboard/partners/partner_user_select.html:45
+msgid "First name"
+msgstr ""
+
+#: apps/address/abstract_models.py:220 apps/customer/abstract_models.py:53
+#: templates/oscar/dashboard/partners/partner_manage.html:40
+#: templates/oscar/dashboard/partners/partner_user_list.html:40
+#: templates/oscar/dashboard/partners/partner_user_select.html:46
+msgid "Last name"
+msgstr ""
+
+#: apps/address/abstract_models.py:224
+msgid "First line of address"
+msgstr ""
+
+#: apps/address/abstract_models.py:226
+msgid "Second line of address"
+msgstr ""
+
+#: apps/address/abstract_models.py:228
+msgid "Third line of address"
+msgstr ""
+
+#: apps/address/abstract_models.py:229
+msgid "City"
+msgstr ""
+
+#: apps/address/abstract_models.py:230
+msgid "State/County"
+msgstr ""
+
+#: apps/address/abstract_models.py:232
+msgid "Post/Zip-code"
+msgstr ""
+
+#: apps/address/abstract_models.py:236 apps/address/abstract_models.py:427
+msgid "Country"
+msgstr ""
+
+#: apps/address/abstract_models.py:241
+msgid "Search text - used only for searching addresses"
+msgstr ""
+
+#: apps/address/abstract_models.py:252 apps/address/apps.py:9
+#: templates/oscar/checkout/checkout.html:32
+#: templates/oscar/checkout/thank_you.html:38
+#: templates/oscar/customer/address/address_list.html:10
+#: templates/oscar/customer/anon_order.html:25
+#: templates/oscar/customer/order/order_detail.html:164
+#: templates/oscar/dashboard/orders/order_detail.html:521
+msgid "Address"
+msgstr ""
+
+#: apps/address/abstract_models.py:253
+#: templates/oscar/dashboard/partners/partner_list.html:46
+#: templates/oscar/dashboard/users/detail.html:107
+#: templates/oscar/dashboard/users/detail.html:151
+msgid "Addresses"
+msgstr ""
+
+#: apps/address/abstract_models.py:279
+#, python-format
+msgid "Addresses in %(country)s require a valid postcode"
+msgstr ""
+
+#: apps/address/abstract_models.py:291
+#, python-format
+msgid "The postcode '%(postcode)s' is not valid for %(country)s"
+msgstr ""
+
+#: apps/address/abstract_models.py:405
+msgid "ISO 3166-1 alpha-2"
+msgstr ""
+
+#: apps/address/abstract_models.py:407
+msgid "ISO 3166-1 alpha-3"
+msgstr ""
+
+#: apps/address/abstract_models.py:409
+msgid "ISO 3166-1 numeric"
+msgstr ""
+
+#: apps/address/abstract_models.py:412
+msgid "Country name"
+msgstr ""
+
+#: apps/address/abstract_models.py:415
+msgid "Official name"
+msgstr ""
+
+#: apps/address/abstract_models.py:418 apps/catalogue/abstract_models.py:1396
+msgid "Display order"
+msgstr ""
+
+#: apps/address/abstract_models.py:419
+msgid "Higher the number, higher the country in the list."
+msgstr ""
+
+#: apps/address/abstract_models.py:422
+msgid "Is shipping country"
+msgstr ""
+
+#: apps/address/abstract_models.py:428 apps/shipping/abstract_models.py:25
+msgid "Countries"
+msgstr ""
+
+#: apps/address/abstract_models.py:471 forms/mixins.py:27
+msgid "Phone number"
+msgstr ""
+
+#: apps/address/abstract_models.py:472
+msgid "In case we need to call you about your order"
+msgstr ""
+
+#: apps/address/abstract_models.py:474
+#: templates/oscar/checkout/checkout.html:55
+#: templates/oscar/checkout/thank_you.html:57
+#: templates/oscar/dashboard/orders/order_detail.html:536
+msgid "Instructions"
+msgstr ""
+
+#: apps/address/abstract_models.py:475
+msgid "Tell us anything we should know when delivering your order."
+msgstr ""
+
+#: apps/address/abstract_models.py:482
+#: templates/oscar/checkout/shipping_address.html:5
+#: templates/oscar/checkout/shipping_address.html:12
+#: templates/oscar/customer/anon_order.html:21
+#: templates/oscar/dashboard/orders/order_list.html:99
+#: templates/oscar/dashboard/orders/shippingaddress_form.html:5
+msgid "Shipping address"
+msgstr ""
+
+#: apps/address/abstract_models.py:483
+msgid "Shipping addresses"
+msgstr ""
+
+#: apps/address/abstract_models.py:508 apps/analytics/abstract_models.py:47
+#: apps/analytics/abstract_models.py:78 apps/analytics/abstract_models.py:103
+#: apps/basket/reports.py:78 apps/communication/abstract_models.py:22
+#: apps/customer/abstract_models.py:71 apps/customer/abstract_models.py:133
+#: apps/order/abstract_models.py:47 apps/order/abstract_models.py:384
+#: apps/payment/abstract_models.py:248 apps/voucher/abstract_models.py:264
+#: templates/oscar/dashboard/orders/order_detail.html:685
+#: templates/oscar/dashboard/reviews/review_delete.html:38
+#: templates/oscar/dashboard/reviews/review_list.html:58
+#: templates/oscar/dashboard/users/alerts/list.html:45
+#: templates/oscar/dashboard/users/alerts/partials/alert.html:10
+msgid "User"
+msgstr ""
+
+#: apps/address/abstract_models.py:512
+msgid "Default shipping address?"
+msgstr ""
+
+#: apps/address/abstract_models.py:516
+msgid "Default billing address?"
+msgstr ""
+
+#: apps/address/abstract_models.py:522
+msgid "Number of Orders as Shipping Address"
+msgstr ""
+
+#: apps/address/abstract_models.py:526
+msgid "Number of Orders as Billing Address"
+msgstr ""
+
+#: apps/address/abstract_models.py:530
+msgid "Address Hash"
+msgstr ""
+
+#: apps/address/abstract_models.py:532 apps/analytics/abstract_models.py:84
+#: apps/analytics/abstract_models.py:105 apps/basket/abstract_models.py:650
+#: apps/communication/abstract_models.py:98 apps/offer/abstract_models.py:214
+#: apps/offer/abstract_models.py:868 apps/order/abstract_models.py:391
+#: apps/order/abstract_models.py:423 apps/order/abstract_models.py:981
+#: apps/partner/abstract_models.py:308 apps/payment/abstract_models.py:42
+msgid "Date Created"
+msgstr ""
+
+#: apps/address/abstract_models.py:560
+msgid "User address"
+msgstr ""
+
+#: apps/address/abstract_models.py:561
+msgid "User addresses"
+msgstr ""
+
+#: apps/address/abstract_models.py:574
+msgid "This address is already in your address book"
+msgstr ""
+
+#: apps/address/abstract_models.py:583
+#: templates/oscar/checkout/thank_you.html:98
+#: templates/oscar/dashboard/orders/order_detail.html:549
+#: templates/oscar/dashboard/orders/order_list.html:100
+msgid "Billing address"
+msgstr ""
+
+#: apps/address/abstract_models.py:584
+msgid "Billing addresses"
+msgstr ""
+
+#: apps/address/abstract_models.py:603 apps/order/abstract_models.py:487
+#: apps/partner/abstract_models.py:99 apps/partner/apps.py:9
+#: templates/oscar/dashboard/catalogue/product_update.html:224
+#: templates/oscar/dashboard/catalogue/stockalert_list.html:48
+#: templates/oscar/dashboard/orders/line_detail.html:75
+msgid "Partner"
+msgstr ""
+
+#: apps/address/abstract_models.py:608
+msgid "Partner address"
+msgstr ""
+
+#: apps/address/abstract_models.py:609
+msgid "Partner addresses"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:18 apps/analytics/abstract_models.py:83
+#: apps/analytics/reports.py:19 apps/basket/abstract_models.py:628
+#: apps/catalogue/abstract_models.py:307 apps/catalogue/abstract_models.py:443
+#: apps/catalogue/abstract_models.py:1039
+#: apps/catalogue/abstract_models.py:1389 apps/order/abstract_models.py:514
+#: apps/partner/abstract_models.py:95 apps/wishlists/abstract_models.py:126
+#: templates/oscar/customer/alerts/alert_list.html:12
+#: templates/oscar/customer/anon_order.html:58
+#: templates/oscar/customer/order/order_detail.html:23
+#: templates/oscar/customer/wishlists/wishlists_detail.html:33
+#: templates/oscar/dashboard/catalogue/stockalert_list.html:47
+#: templates/oscar/dashboard/orders/order_detail.html:127
+#: templates/oscar/dashboard/reports/partials/product_report.html:8
+#: templates/oscar/dashboard/reviews/review_delete.html:37
+#: templates/oscar/dashboard/reviews/review_list.html:57
+#: templates/oscar/dashboard/users/alerts/list.html:44
+#: templates/oscar/dashboard/users/alerts/partials/alert.html:6
+msgid "Product"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:22 apps/analytics/reports.py:20
+#: templates/oscar/dashboard/reports/partials/product_report.html:9
+msgid "Views"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:24 apps/analytics/abstract_models.py:54
+msgid "Basket Additions"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:26 apps/analytics/reports.py:22
+#: templates/oscar/dashboard/reports/partials/product_report.html:11
+msgid "Purchases"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:29
+#: apps/catalogue/reviews/abstract_models.py:29
+#: apps/catalogue/reviews/forms.py:51
+#: templates/oscar/dashboard/reviews/review_delete.html:39
+#: templates/oscar/dashboard/reviews/review_list.html:59
+#: templates/oscar/dashboard/users/detail.html:180
+msgid "Score"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:35
+msgid "Product record"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:36
+msgid "Product records"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:39
+#, python-format
+msgid "Record for '%s'"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:52
+msgid "Product Views"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:58 apps/analytics/reports.py:62
+#: apps/order/abstract_models.py:308 defaults.py:135
+#: templates/oscar/dashboard/orders/line_detail.html:14
+#: templates/oscar/dashboard/orders/order_detail.html:15
+#: templates/oscar/dashboard/orders/order_list.html:10
+#: templates/oscar/dashboard/orders/order_list.html:17
+#: templates/oscar/dashboard/orders/order_list.html:24
+#: templates/oscar/dashboard/orders/shippingaddress_form.html:12
+#: templates/oscar/dashboard/orders/statistics.html:16
+#: templates/oscar/dashboard/reports/partials/user_report.html:13
+#: templates/oscar/dashboard/users/detail.html:104
+#: templates/oscar/dashboard/users/detail.html:119
+msgid "Orders"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:60 apps/order/abstract_models.py:564
+msgid "Order Lines"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:62
+msgid "Order Items"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:63
+msgid "Total Spent"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:66
+msgid "Last Order Date"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:71
+msgid "User record"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:72
+msgid "User records"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:90
+msgid "User product view"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:91
+msgid "User product views"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:94
+#, python-format
+msgid "%(user)s viewed '%(product)s'"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:104
+msgid "Search term"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:111
+msgid "User search query"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:112
+msgid "User search queries"
+msgstr ""
+
+#: apps/analytics/abstract_models.py:115
+#, python-format
+msgid "%(user)s searched for '%(query)s'"
+msgstr ""
+
+#: apps/analytics/apps.py:9
+msgid "Analytics"
+msgstr ""
+
+#: apps/analytics/reports.py:21 apps/analytics/reports.py:61
+#: templates/oscar/dashboard/reports/partials/product_report.html:10
+#: templates/oscar/dashboard/reports/partials/user_report.html:12
+msgid "Basket additions"
+msgstr ""
+
+#: apps/analytics/reports.py:39
+msgid "Product analytics"
+msgstr ""
+
+#: apps/analytics/reports.py:58 apps/basket/reports.py:19
+#: apps/catalogue/abstract_models.py:82 apps/catalogue/abstract_models.py:129
+#: apps/catalogue/abstract_models.py:814
+#: apps/catalogue/abstract_models.py:1174
+#: apps/catalogue/abstract_models.py:1258 apps/catalogue/reviews/forms.py:11
+#: apps/communication/abstract_models.py:66
+#: apps/dashboard/catalogue/tables.py:80
+#: apps/dashboard/catalogue/tables.py:104 apps/dashboard/users/forms.py:44
+#: apps/dashboard/vouchers/forms.py:45 apps/offer/abstract_models.py:87
+#: apps/offer/abstract_models.py:837 apps/order/abstract_models.py:868
+#: apps/order/abstract_models.py:1047 apps/order/reports.py:19
+#: apps/payment/abstract_models.py:209 apps/payment/abstract_models.py:252
+#: apps/shipping/abstract_models.py:20 apps/voucher/abstract_models.py:30
+#: apps/voucher/abstract_models.py:93 apps/wishlists/abstract_models.py:23
+#: templates/oscar/customer/profile/profile.html:9
+#: templates/oscar/customer/wishlists/wishlists_list.html:9
+#: templates/oscar/dashboard/catalogue/product_class_form.html:101
+#: templates/oscar/dashboard/catalogue/product_class_list.html:27
+#: templates/oscar/dashboard/comms/list.html:32
+#: templates/oscar/dashboard/offers/offer_detail.html:62
+#: templates/oscar/dashboard/offers/offer_detail.html:116
+#: templates/oscar/dashboard/offers/summary.html:12
+#: templates/oscar/dashboard/orders/order_detail.html:31
+#: templates/oscar/dashboard/orders/order_detail.html:42
+#: templates/oscar/dashboard/partners/partner_list.html:44
+#: templates/oscar/dashboard/ranges/range_list.html:31
+#: templates/oscar/dashboard/reports/partials/open_basket_report.html:10
+#: templates/oscar/dashboard/reports/partials/order_report.html:10
+#: templates/oscar/dashboard/reports/partials/submitted_basket_report.html:9
+#: templates/oscar/dashboard/reports/partials/user_report.html:9
+#: templates/oscar/dashboard/shipping/weight_based_detail.html:29
+#: templates/oscar/dashboard/shipping/weight_based_list.html:31
+#: templates/oscar/dashboard/users/detail.html:30
+#: templates/oscar/dashboard/vouchers/partials/voucher_details_table.html:8
+#: templates/oscar/dashboard/vouchers/voucher_list.html:90
+#: templates/oscar/dashboard/vouchers/voucher_set_list.html:35
+msgid "Name"
+msgstr ""
+
+#: apps/analytics/reports.py:59
+#: templates/oscar/customer/profile/profile.html:25
+#: templates/oscar/dashboard/reports/partials/user_report.html:10
+msgid "Date registered"
+msgstr ""
+
+#: apps/analytics/reports.py:60
+#: templates/oscar/dashboard/reports/partials/user_report.html:11
+msgid "Product views"
+msgstr ""
+
+#: apps/analytics/reports.py:63
+#: templates/oscar/dashboard/reports/partials/user_report.html:14
+msgid "Order lines"
+msgstr ""
+
+#: apps/analytics/reports.py:64
+#: templates/oscar/dashboard/reports/partials/user_report.html:15
+msgid "Order items"
+msgstr ""
+
+#: apps/analytics/reports.py:65
+#: templates/oscar/dashboard/reports/partials/user_report.html:16
+#: templates/oscar/dashboard/users/detail.html:74
+msgid "Total spent"
+msgstr ""
+
+#: apps/analytics/reports.py:66
+#: templates/oscar/dashboard/reports/partials/user_report.html:17
+msgid "Date of last order"
+msgstr ""
+
+#: apps/analytics/reports.py:88
+msgid "User analytics"
+msgstr ""
+
+#: apps/basket/abstract_models.py:37 apps/wishlists/abstract_models.py:22
+msgid "Owner"
+msgstr ""
+
+#: apps/basket/abstract_models.py:45
+msgid "Open - currently active"
+msgstr ""
+
+#: apps/basket/abstract_models.py:46
+msgid "Merged - superceded by another basket"
+msgstr ""
+
+#: apps/basket/abstract_models.py:47
+msgid "Saved - for items to be purchased later"
+msgstr ""
+
+#: apps/basket/abstract_models.py:48
+msgid "Frozen - the basket cannot be modified"
+msgstr ""
+
+#: apps/basket/abstract_models.py:49
+msgid "Submitted - has been ordered at the checkout"
+msgstr ""
+
+#: apps/basket/abstract_models.py:52
+#: apps/catalogue/reviews/abstract_models.py:60
+#: apps/customer/abstract_models.py:153 apps/dashboard/catalogue/forms.py:317
+#: apps/dashboard/orders/forms.py:77 apps/dashboard/reviews/forms.py:15
+#: apps/dashboard/reviews/forms.py:28 apps/dashboard/users/forms.py:43
+#: apps/offer/abstract_models.py:133 apps/offer/abstract_models.py:1054
+#: apps/order/abstract_models.py:86 apps/order/abstract_models.py:551
+#: apps/partner/abstract_models.py:306 apps/payment/abstract_models.py:41
+#: templates/oscar/customer/alerts/alert_list.html:13
+#: templates/oscar/customer/anon_order.html:14
+#: templates/oscar/customer/anon_order.html:59
+#: templates/oscar/customer/order/order_detail.html:15
+#: templates/oscar/dashboard/catalogue/stockalert_list.html:52
+#: templates/oscar/dashboard/offers/offer_detail.html:118
+#: templates/oscar/dashboard/orders/line_detail.html:72
+#: templates/oscar/dashboard/orders/order_detail.html:62
+#: templates/oscar/dashboard/orders/order_detail.html:129
+#: templates/oscar/dashboard/orders/order_detail.html:603
+#: templates/oscar/dashboard/orders/order_list.html:97
+#: templates/oscar/dashboard/orders/statistics.html:56
+#: templates/oscar/dashboard/reviews/review_delete.html:41
+#: templates/oscar/dashboard/reviews/review_list.html:61
+#: templates/oscar/dashboard/users/alerts/list.html:46
+#: templates/oscar/dashboard/users/alerts/partials/alert.html:20
+#: templates/oscar/dashboard/users/detail.html:127
+#: templates/oscar/dashboard/vouchers/partials/voucher_set_details_table.html:35
+#: templates/oscar/dashboard/vouchers/voucher_list.html:92
+#: templates/oscar/dashboard/vouchers/voucher_set_list.html:37
+msgid "Status"
+msgstr ""
+
+#: apps/basket/abstract_models.py:58 apps/voucher/abstract_models.py:138
+#: defaults.py:179 templates/oscar/basket/partials/basket_totals.html:42
+#: templates/oscar/dashboard/vouchers/voucher_delete.html:9
+#: templates/oscar/dashboard/vouchers/voucher_delete.html:11
+#: templates/oscar/dashboard/vouchers/voucher_delete.html:19
+#: templates/oscar/dashboard/vouchers/voucher_detail.html:6
+#: templates/oscar/dashboard/vouchers/voucher_detail.html:13
+#: templates/oscar/dashboard/vouchers/voucher_form.html:8
+#: templates/oscar/dashboard/vouchers/voucher_form.html:15
+#: templates/oscar/dashboard/vouchers/voucher_list.html:8
+#: templates/oscar/dashboard/vouchers/voucher_list.html:16
+#: templates/oscar/dashboard/vouchers/voucher_list.html:18
+#: templates/oscar/dashboard/vouchers/voucher_list.html:26
+msgid "Vouchers"
+msgstr ""
+
+#: apps/basket/abstract_models.py:60 apps/basket/reports.py:82
+#: apps/catalogue/abstract_models.py:417
+#: apps/catalogue/abstract_models.py:1399 apps/customer/abstract_models.py:156
+#: apps/order/abstract_models.py:918 apps/partner/abstract_models.py:137
+#: apps/wishlists/abstract_models.py:50
+#: templates/oscar/customer/alerts/alert_list.html:14
+#: templates/oscar/dashboard/ranges/range_list.html:34
+#: templates/oscar/dashboard/reports/partials/submitted_basket_report.html:12
+#: templates/oscar/dashboard/reviews/review_delete.html:42
+#: templates/oscar/dashboard/reviews/review_list.html:62
+#: templates/oscar/dashboard/users/alerts/list.html:47
+#: templates/oscar/dashboard/users/alerts/partials/alert.html:24
+#: templates/oscar/dashboard/users/detail.html:183
+#: templates/oscar/dashboard/vouchers/voucher_list.html:96
+#: templates/oscar/dashboard/vouchers/voucher_set_detail.html:68
+#: templates/oscar/dashboard/vouchers/voucher_set_list.html:41
+msgid "Date created"
+msgstr ""
+
+#: apps/basket/abstract_models.py:61
+msgid "Date merged"
+msgstr ""
+
+#: apps/basket/abstract_models.py:62
+#: templates/oscar/customer/order/order_list.html:56
+msgid "Date submitted"
+msgstr ""
+
+#: apps/basket/abstract_models.py:71 apps/basket/abstract_models.py:615
+#: apps/basket/apps.py:12 apps/order/abstract_models.py:40
+#: templates/oscar/basket/basket.html:5 templates/oscar/basket/basket.html:12
+#: templates/oscar/basket/basket.html:21
+#: templates/oscar/basket/partials/basket_totals.html:10
+#: templates/oscar/basket/partials/basket_totals.html:197
+#: templates/oscar/order/partials/basket_totals.html:7
+#: templates/oscar/partials/nav_primary.html:15
+msgid "Basket"
+msgstr ""
+
+#: apps/basket/abstract_models.py:72
+msgid "Baskets"
+msgstr ""
+
+#: apps/basket/abstract_models.py:91
+#, python-format
+msgid "%(status)s basket (owner: %(owner)s, lines: %(num_lines)d)"
+msgstr ""
+
+#: apps/basket/abstract_models.py:160
+#, python-format
+msgid ""
+"Due to technical limitations we are not able to ship more than %(threshold)d"
+" items in one order."
+msgstr ""
+
+#: apps/basket/abstract_models.py:622
+msgid "Line Reference"
+msgstr ""
+
+#: apps/basket/abstract_models.py:636 apps/basket/forms.py:81
+#: apps/basket/forms.py:202 apps/order/abstract_models.py:521
+#: apps/order/abstract_models.py:835 apps/order/abstract_models.py:948
+#: apps/order/abstract_models.py:1016 apps/wishlists/abstract_models.py:129
+#: templates/oscar/basket/partials/basket_content.html:30
+#: templates/oscar/checkout/checkout.html:114
+#: templates/oscar/checkout/thank_you.html:119
+#: templates/oscar/customer/anon_order.html:60
+#: templates/oscar/customer/wishlists/wishlists_detail.html:34
+#: templates/oscar/dashboard/orders/line_detail.html:51
+#: templates/oscar/dashboard/orders/line_detail.html:106
+#: templates/oscar/dashboard/orders/line_detail.html:131
+#: templates/oscar/dashboard/orders/line_detail.html:162
+#: templates/oscar/dashboard/orders/order_detail.html:126
+msgid "Quantity"
+msgstr ""
+
+#: apps/basket/abstract_models.py:642 apps/order/abstract_models.py:59
+#: apps/partner/abstract_models.py:110 apps/payment/abstract_models.py:80
+#: templates/oscar/dashboard/catalogue/product_update.html:231
+msgid "Currency"
+msgstr ""
+
+#: apps/basket/abstract_models.py:644
+msgid "Price excl. Tax"
+msgstr ""
+
+#: apps/basket/abstract_models.py:647
+msgid "Price incl. Tax"
+msgstr ""
+
+#: apps/basket/abstract_models.py:651 apps/communication/abstract_models.py:99
+#: apps/order/abstract_models.py:392
+msgid "Date Updated"
+msgstr ""
+
+#: apps/basket/abstract_models.py:666
+msgid "Basket line"
+msgstr ""
+
+#: apps/basket/abstract_models.py:667
+msgid "Basket lines"
+msgstr ""
+
+#: apps/basket/abstract_models.py:671
+#, python-format
+msgid "Basket #%(basket_id)d, Product #%(product_id)d, quantity %(quantity)d"
+msgstr ""
+
+#: apps/basket/abstract_models.py:679
+#, python-format
+msgid "You cannot modify a %s basket"
+msgstr ""
+
+#: apps/basket/abstract_models.py:915
+#, python-format
+msgid ""
+"The price of '%(product)s' has increased from %(old_price)s to %(new_price)s"
+" since you added it to your basket"
+msgstr ""
+
+#: apps/basket/abstract_models.py:920
+#, python-format
+msgid ""
+"The price of '%(product)s' has decreased from %(old_price)s to %(new_price)s"
+" since you added it to your basket"
+msgstr ""
+
+#: apps/basket/abstract_models.py:934 apps/order/abstract_models.py:800
+#: apps/order/abstract_models.py:834 apps/order/abstract_models.py:947
+#: apps/order/abstract_models.py:1015
+msgid "Line"
+msgstr ""
+
+#: apps/basket/abstract_models.py:938 apps/catalogue/abstract_models.py:847
+#: apps/catalogue/abstract_models.py:1201
+#: apps/catalogue/abstract_models.py:1333 apps/order/abstract_models.py:803
+#: apps/order/abstract_models.py:829
+#: templates/oscar/dashboard/catalogue/attribute_option_group_form.html:110
+#: templates/oscar/dashboard/catalogue/option_list.html:21
+msgid "Option"
+msgstr ""
+
+#: apps/basket/abstract_models.py:939 apps/offer/abstract_models.py:498
+#: apps/offer/abstract_models.py:713 apps/order/abstract_models.py:805
+msgid "Value"
+msgstr ""
+
+#: apps/basket/abstract_models.py:944
+msgid "Line attribute"
+msgstr ""
+
+#: apps/basket/abstract_models.py:945
+msgid "Line attributes"
+msgstr ""
+
+#: apps/basket/forms.py:83
+msgid "Save for Later"
+msgstr ""
+
+#: apps/basket/forms.py:147
+msgid "Move to Basket"
+msgstr ""
+
+#: apps/basket/forms.py:179 apps/catalogue/abstract_models.py:816
+#: apps/catalogue/abstract_models.py:1259
+#: apps/communication/abstract_models.py:55
+#: apps/dashboard/vouchers/forms.py:46 apps/dashboard/vouchers/forms.py:127
+#: apps/order/abstract_models.py:869 apps/order/abstract_models.py:1049
+#: apps/order/abstract_models.py:1102 apps/partner/abstract_models.py:24
+#: apps/payment/abstract_models.py:211 apps/voucher/abstract_models.py:97
+#: templates/oscar/dashboard/catalogue/product_class_form.html:102
+#: templates/oscar/dashboard/comms/list.html:31
+#: templates/oscar/dashboard/offers/offer_detail.html:117
+#: templates/oscar/dashboard/vouchers/partials/voucher_details_table.html:9
+#: templates/oscar/dashboard/vouchers/voucher_list.html:91
+#: templates/oscar/dashboard/vouchers/voucher_
